@@ -1,0 +1,38 @@
+{
+    "result": "0",
+    "message": "接口通信成功！",
+    "responseData": {
+        "bannerList": [
+            {
+                "bannerId": 1290,
+                "description": "",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/02/20160222040140697.jpg"
+            },
+            {
+                "bannerId": 1293,
+                "description": "",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/02/20160229011500572.jpg"
+            },
+            {
+                "bannerId": 1297,
+                "description": "",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/03/20160307015949408.jpg"
+            },
+            {
+                "bannerId": 1298,
+                "description": "",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/04/20160407031707625.jpg"
+            },
+            {
+                "bannerId": 1304,
+                "description": "",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/04/20160422044700307.jpg"
+            },
+            {
+                "bannerId": 1305,
+                "description": "http://m.998.com/ActivityInfo/MayDay/MayDay.html",
+                "bannerUrl": "http://appbanner.greentree.cn/Public/uploadfile/content/2016/04/20160426050341878.jpg"
+            }
+        ]
+    }
+}

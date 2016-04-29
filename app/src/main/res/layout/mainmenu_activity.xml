@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.home.fragment.HomePageFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_title_include" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_consider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#b7aaaa" />
+            <RadioGroup
+                android:id="@+id/lay_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                >
+                <RadioButton
+                    android:id="@+id/pic1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/pic2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:layout_marginLeft="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/pic3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:layout_marginLeft="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/pic4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:layout_marginLeft="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/pic5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:layout_marginLeft="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/pic6"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:button="@null"
+                    android:background="@drawable/select_dots"
+                    android:layout_marginLeft="5dp"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_button_search"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/color_green"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/RB_reserchhotle"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/select_botton"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="酒店搜索"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/RB_collect"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/select_botton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="常住/收藏"
+                android:textSize="20sp" />
+        </RadioGroup>
+        <FrameLayout
+            android:id="@+id/fl_searchAndcollect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
